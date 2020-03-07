@@ -10,9 +10,9 @@ convert mask to ip mask (255.255.255.192)
 Subnet is 192.
 To get min just add 1 to subnet. So therefore min is 193.
 
-Max is 254.
-To get broadcast just add 1 to max. So therefore max is 255.
+Broadcast is 255.
+To get max just minus 1 to broadcast. So therefore max is 254.
 
 BINARY = 1100 0000.1010 1000.1100 1100.1100 0101
-MASK = 1111 1111.1111 1111.1111 1111.1100 0000
+MASK   = 1111 1111.1111 1111.1111 1111.1100 0000
 
