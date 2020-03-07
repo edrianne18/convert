@@ -1,0 +1,18 @@
+given ip (192.168.204.197)
+given mask (26)
+
+convert ip to binary (192.168.204.197) = (1100 0000.1010 1000.1100 1100.1100 0101)
+
+mask repeat number one 26 times and repeat number zero 6 times (1111 1111.1111 1111.1111 1111.1100 0000)
+
+convert mask to ip mask (255.255.255.192)
+
+Subnet is 192.
+To get min just add 1 to subnet. So therefore min is 193.
+
+Max is 254.
+To get broadcast just add 1 to max. So therefore max is 255.
+
+BINARY = 1100 0000.1010 1000.1100 1100.1100 0101
+MASK = 1111 1111.1111 1111.1111 1111.1100 0000
+
